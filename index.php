@@ -15,7 +15,7 @@
         include './partes/equipo.php';
         include './partes/contactanos.php';
         include './partes/footer.php';
-        include './partes/scripts.php'
+        include './partes/scripts.php';
     ?>
     
 </body>
