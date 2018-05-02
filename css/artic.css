@@ -137,21 +137,21 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #1eaaaf;
+    color: #002e74;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
-    font-weight: 400;
+    font-size: 100%;
+    font-weight: 800;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: rgb(22, 120, 233);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #22bdc2;
+    color: #002da8;
 }
 
 @media (min-width: 992px) {
@@ -176,7 +176,7 @@ img::-moz-selection {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #666666;
+        background-color: #ffffffe0;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
@@ -186,8 +186,8 @@ img::-moz-selection {
 
 header.masthead {
     text-align: right;
-    color: #fff;
-    background-image: url("../img/fondo1.jpg");
+    color: rgb(42, 168, 218);
+    background-image: url("../img/fondo4.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -198,7 +198,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 250px;
+    padding-top: 150px;
     padding-bottom: 100px;
 }
 
@@ -206,7 +206,7 @@ header.masthead .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -220,21 +220,24 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 300px;
+        padding-top: 150px;
         padding-bottom: 200px;
     }
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
         font-style: italic;
+        text-align: initial;
         line-height: 40px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     header.masthead .intro-text .intro-heading {
         font-size: 40px;
         font-weight: 700;
+        text-align: initial;
         line-height: 75px;
         margin-bottom: 50px;
+        margin-top: 90px;
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 }
@@ -245,7 +248,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .fondo-portafolio {
-    background-color: rgb(24, 190, 196);
+    background-color: rgb(24, 127, 196);
 }
 
 #portafolio .portafolio-item {
@@ -269,7 +272,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(27, 185, 88, 0.9);
+    background: rgba(0, 195, 255, 0.938);
 }
 
 #portafolio .portafolio-item .portafolio-link .portafolio-hover:hover {
