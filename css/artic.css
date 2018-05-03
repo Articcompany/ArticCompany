@@ -80,6 +80,8 @@ section h3.section-subheading {
 .btn-primary {
     background-color: #22bdc2;
     border-color: #22bdc2;
+    position: relative;
+    left: -900px;
 }
 
 .btn-primary:active,
