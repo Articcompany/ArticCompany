@@ -2,7 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Artic Company S.A.S. 2018</span>
+                <!--<ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        <a href="#">Politicas de Privacidad</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Terminos y condiciones</a>
+                    </li>
+                </ul>-->
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
@@ -24,14 +31,7 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
-                        <a href="#">Politicas de Privacidad</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">Terminos y condiciones</a>
-                    </li>
-                </ul>
+                <span class="copyright">Copyright &copy; Artic Company S.A.S. 2018</span>
             </div>
         </div>
     </div>

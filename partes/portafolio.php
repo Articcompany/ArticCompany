@@ -17,8 +17,8 @@
                     <img class="img-fluid" src="img/portfolio/musica.png"  alt="">
                 </a>
                 <div class="portafolio-caption">
-                    <h4>Portafolio creador Musical</h4>
-                    <p class="text-muted">Pagina web</p>
+                    <h4>Producción y Composición Musical</h4>
+                    <p class="text-muted"><a href="http://camilocastromusic.com" target="_blank">Pagina web</a></p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portafolio-item">

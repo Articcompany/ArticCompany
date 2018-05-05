@@ -16,7 +16,7 @@ a:hover {
 }
 
 .text-primary {
-    color: #22bdc2 !important;
+    color: #226dc2 !important;
 }
 
 h1,
@@ -34,7 +34,7 @@ h6 {
 }
 
 .color-secundario {
-    color: rgb(0, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -78,15 +78,29 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #22bdc2;
-    border-color: #22bdc2;
+    background-color: #2275c2;
+    border-color: #2275c2;
     position: relative;
     left: -900px;
+}
+
+.btn-primary2 {
+    background-color: #22bdc2;
+    border-color: #22bdc2;
+    color: #ced4da;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
+    background-color: #1eaeb3 !important;
+    border-color: #1eaeb3 !important;
+    color: white;
+}
+
+.btn-primary2:active,
+.btn-primary2:focus,
+.btn-primary2:hover {
     background-color: #1eaeb3 !important;
     border-color: #1eaeb3 !important;
     color: white;
